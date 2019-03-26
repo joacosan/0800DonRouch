@@ -104,7 +104,14 @@ ul h3 {
     text-align: center;
     padding: 10px;
     color: #fff;
-}
+  }
+
+ section .contenedor{
+    background: #050b0e;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+  }
 .main-title{
     margin: 15px 0 ;
     font-size: 1.8em;
@@ -140,8 +147,7 @@ ul h3 {
     flex-wrap: wrap;
 }
 .columna--50 img{
-    width: 100%;
-    height: 407px;
+   height:400px;
 }
 .nuestros-trabajos .columna--50-25 {
     margin-bottom: 30px;
@@ -150,7 +156,7 @@ ul h3 {
   .nuestros-trabajos--img{
     margin: auto;
     height: 426px;
-    width: 640px;
+    width: 550px; 
   }
   .title-nuestros-trabajos{
     text-align: center;
@@ -173,6 +179,9 @@ ul h3 {
     font-weight: 100;
     font-size: 1.8em;
     margin:30px;
+  }
+ .secundary-section div .main-title2{
+    padding: 20px;
   }
   /*---------------------------- Estilos del footer-------------------------*/
   .main-footer {
