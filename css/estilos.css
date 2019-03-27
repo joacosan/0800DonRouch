@@ -8,11 +8,7 @@ body{
 .logo img{
     width: 70px;
 }
-img{
-    display: block;
-    width: 100%;
-    max-width: 100%;
-}
+
 header{
     width: 100%;
     background: #050b0e;
@@ -99,6 +95,7 @@ ul h3 {
     top: 0;
   }
 /*-----------------------------Estilos del banner--------------------*/
+/*-----------------------------Estilos Principales-------------------*/
 .main-section .contenedor{
     background: #050b0e;
     text-align: center;
@@ -182,8 +179,52 @@ ul h3 {
     font-size: 1.8em;
     margin:30px;
   }
- .secundary-section div .main-title2{
-    padding: 20px;
+ 
+  /*----------------------------Estilos del slider -------------------------*/
+  .slider-img{
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  .contenedor-slider{
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .slider{
+    display: flex;
+    width: 500%;
+  }
+  .slider section {
+    width: 100%;
+  }
+  .btn-anterior,.btn-siguiente{
+    width: 40px;
+    height: 40px;
+    background:rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform:translateY(50%);
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  .btn-anterior:hover,.btn-siguiente:hover{
+    background:rgba(255, 255, 255, 1)
+  }
+  .btn-anterior{
+    left: 10px;
+  }
+  .btn-siguiente{
+    right: 10px;
   }
   /*---------------------------- Estilos del footer-------------------------*/
   .main-footer{
