@@ -13,9 +13,6 @@ img{
     width: 100%;
     max-width: 100%;
 }
-label img{
-    height: 30px;
-}
 header{
     width: 100%;
     background: #050b0e;
@@ -24,11 +21,14 @@ header{
     display: none;
     
 }
+ label i{
+  color: white;
+}
 header label{
     display: none;
     width: 30px;
     height: 30px;
-    padding: 10px;
+    padding-left: 6px;
     border: 2px solid #fff;
 }
 header label:hover{
@@ -118,18 +118,21 @@ ul h3 {
     font-family: 'Pacifico',cursive;
     font-weight: 100;
   }
-  .columna-title{
+.maintitle2{
+  padding-bottom: 20px;
+}  
+.columna-title{
     font-size: 1.3em;
     text-align: center;
   
   }
-  .columna-txt{
+.columna-txt{
     font-size: 1.1em;
   }
-  .secundary-section .columna:nth-child(2){
+.secundary-section .columna:nth-child(2){
       padding: 10px;
   }
-  .btn-contacto {
+.btn-contacto {
       display: block;
       text-align: center;
       text-decoration: none;
@@ -139,24 +142,23 @@ ul h3 {
       padding: 10px;
       margin:0 auto;
   }
-  .columna--50{
+.columna--50{
       width:50%; 
   }
 .contenedor--flex{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
-.columna--50 img{
-   height:400px;
-}
+
 .nuestros-trabajos .columna--50-25 {
     margin-bottom: 30px;
     text-align: center;
   }
   .nuestros-trabajos--img{
     margin: auto;
-    height: 426px;
-    width: 500px; 
+    height: 400px;
+    width: 400px; 
   }
   .title-nuestros-trabajos{
     text-align: center;
@@ -184,26 +186,45 @@ ul h3 {
     padding: 20px;
   }
   /*---------------------------- Estilos del footer-------------------------*/
-  .contenedor-footer{
-    padding-top: 80px;
+  .main-footer{
+    background: #292929;
+    
+    
   }
+  
   .copy {
     text-align: center;
     margin: auto;
     margin-top: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
+    color: #fff;
+  }
+  .contact-footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+    width: 50%;
+    padding-left: 70px;
+
+  }
+  .contenedor-footer{
+    flex-wrap: wrap;
+    display: flex;
   }
   
   .footer-social{
-    position:absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position: relative;
     margin: 0;
-    padding: 0;
-    display: flex;
+    display: flex¿;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 30px;
   }
   .footer-social li {
     list-style: none;
+    padding-top: 20px;
+    
   }
   .footer-social li a {
     display: block;
@@ -228,7 +249,7 @@ ul h3 {
     width: 100%;
     height: 1px;
     background: #;
-    border: 1px solid black;
+    border: 1.5px solid #050b0e;
   }
   .footer-social li a span:nth-child(1){
     top: 0;
@@ -255,7 +276,7 @@ ul h3 {
     width: 1px;
     height: 100%;
     background: #050b0e;
-    border: 1px solid black;
+    border: 1.5px solid #050b0e;
   }
   .footer-social li a span:nth-child(2){
     top: 0;
@@ -312,5 +333,9 @@ ul h3 {
         background: rgba(0,0,0,0.2);
         z-index: 1000;
         top: 0;
+      }
+    .contenedor-footer{
+        flex-wrap: wrap;
+        display: flex;
       }
 }
